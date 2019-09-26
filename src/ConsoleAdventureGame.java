@@ -242,15 +242,15 @@ public class ConsoleAdventureGame {
             if (enemyHealth <= 0) {
                 System.out.println("YOU ARE VICTORIOUS! YOU HAVE DEFEATED KEN DOLL!\n");
                 System.out.println("");
+                System.out.println("You begin to slowly limp your way into the house");
+                input.nextLine();
+                System.out.println("You enter the house and drop your knees in tears. The house is empty, there's no way\n" +
+                        "there's band-aids in here.");
             } else if (heroHealth <= 0) {
                 System.out.println("Ken Doll squishes you like the bug you are.\n");
                 gameOver();
             }
 
-            System.out.println("You begin to slowly limp your way into the house");
-            input.nextLine();
-            System.out.println("You enter the house and drop your knees in tears. The house is empty, there's no way\n" +
-                    "there's band-aids in here.");
         } else {
             System.out.println("You wimp.");
         }
